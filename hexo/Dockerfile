@@ -1,10 +1,9 @@
-# Hexo
-
 # use the node base image provided by official repo
 FROM node:latest
+MAINTAINER Steve Zhang "stevzhg@gmail.com"
 
 # prepare work directory
-WORKWIR /blog
+WORKDIR /blog
 
 # install hexo
 RUN npm install hexo-cli -g
