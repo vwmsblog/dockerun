@@ -9,7 +9,6 @@ WORKDIR /resume
 RUN apt-get update
 RUN apt-get install -y git wget python-pip python-dev
 RUN apt-get install -y gdebi-core
-RUN apt-get install -y language-support-fonts-zh-hans
 
 RUN wget http://download.gna.org/wkhtmltopdf/0.12/0.12.2.1/wkhtmltox-0.12.2.1_linux-trusty-amd64.deb \
     && gdebi -n wkhtmltox-0.12.2.1_linux-trusty-amd64.deb \
