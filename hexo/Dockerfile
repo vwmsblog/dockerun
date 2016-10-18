@@ -1,6 +1,6 @@
 # use the node base image provided by official repo
 FROM node:latest
-MAINTAINER Steve Zhang "stevzhg@gmail.com"
+MAINTAINER Lynn "lwang@vwms.com"
 
 # prepare work directory
 WORKDIR /blog
